@@ -1,0 +1,18 @@
+<p>
+<strong>Interenet name:</strong>
+<%= @internet.name %>
+</p>
+
+<p>
+<strong>Speed:</strong>
+<%= @internet.speed %>
+</p>
+
+<p>
+<strong>Amount:</strong>
+<%= @internet.amount %>
+</p>
+
+<%=link_to 'Edit', edit_internet_path(@internet) %>
+<%=link_to 'Back', internets_path %> 
+

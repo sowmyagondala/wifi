@@ -1,0 +1,14 @@
+<%= form_for  @internet do | f | %>
+
+<%= f.label :name %>
+<%= f.text_field :name %>
+
+<%= f.label :speed %>
+<%= f.text_field :speed %>
+
+<%= f.label :amount %>
+<%= f.text_field :amount %>
+
+<%= f.submit :create %>
+
+<% end %>
